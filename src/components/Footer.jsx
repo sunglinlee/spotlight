@@ -18,10 +18,10 @@ const Footer = () => {
         </div>
         <div className="footer-social">
           <a href="https://www.facebook.com/profile.php?id=61575954046909" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-            <img src="/image/fb.jpg" alt="Facebook" className="footer-icon" />
+            <img src={process.env.PUBLIC_URL + '/image/fb.jpg'} alt="Facebook" className="footer-icon" />
           </a>
           <a href="https://www.instagram.com/spotlight.2018?igsh=MWJ4NTk2djk1d2FkNw%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <img src="/image/ig.jpg" alt="Instagram" className="footer-icon" />
+            <img src={process.env.PUBLIC_URL + '/image/ig.jpg'} alt="Instagram" className="footer-icon" />
           </a>
         </div>
       </div>

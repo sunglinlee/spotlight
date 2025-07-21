@@ -8,12 +8,12 @@ const Booking = () => {
 
   // 菜單圖片資料
   const menuImages = [
-    { id: 0, image: "/image/main_logo.png", alt: "SpotLight Logo" },
-    { id: 1, image: "/image/menu_1.png", alt: "菜單1" },
-    { id: 2, image: "/image/menu_2.png", alt: "菜單2" },
-    { id: 3, image: "/image/menu_3.png", alt: "菜單3" },
-    { id: 4, image: "/image/menu_4.png", alt: "菜單4" },
-    { id: 5, image: "/image/menu_5.png", alt: "菜單5" }
+    { id: 0, image: process.env.PUBLIC_URL + '/image/main_logo.png', alt: "SpotLight Logo" },
+    { id: 1, image: process.env.PUBLIC_URL + '/image/menu_1.png', alt: "菜單1" },
+    { id: 2, image: process.env.PUBLIC_URL + '/image/menu_2.png', alt: "菜單2" },
+    { id: 3, image: process.env.PUBLIC_URL + '/image/menu_3.png', alt: "菜單3" },
+    { id: 4, image: process.env.PUBLIC_URL + '/image/menu_4.png', alt: "菜單4" },
+    { id: 5, image: process.env.PUBLIC_URL + '/image/menu_5.png', alt: "菜單5" }
   ];
 
   const openLightbox = (index) => {

@@ -10,47 +10,47 @@ const Works = () => {
     {
       id: 1,
       title: "Porsche 911 鍍膜施工案例",
-      image: "/image/work_911_1.jpg"
+      image: process.env.PUBLIC_URL + '/image/work_911_1.jpg'
     },
     {
       id: 2,
       title: "Porsche 911 貼膜案例",
-      image: "/image/work_911_2.jpg"
+      image: process.env.PUBLIC_URL + '/image/work_911_2.jpg'
     },
     {
       id: 3,
       title: "Audi RS4 鍍膜維護案例",
-      image: "/image/work_rs4_1.jpg"
+      image: process.env.PUBLIC_URL + '/image/work_rs4_1.jpg'
     },
     {
       id: 4,
       title: "Audi RS4 全車鍍膜案例",
-      image: "/image/work_rs4_2.jpg"
+      image: process.env.PUBLIC_URL + '/image/work_rs4_2.jpg'
     },
     {
       id: 5,
       title: "BMW M4 鍍膜施工案例",
-      image: "/image/work_m4_1.jpg"
+      image: process.env.PUBLIC_URL + '/image/work_m4_1.jpg'
     },
     {
       id: 6,
       title: "BMW M4 貼膜服務案例",
-      image: "/image/work_m4_2.jpg"
+      image: process.env.PUBLIC_URL + '/image/work_m4_2.jpg'
     },
     {
       id: 7,
       title: "Audi R8 鍍膜案例",
-      image: "/image/work_r8_1.jpg"
+      image: process.env.PUBLIC_URL + '/image/work_r8_1.jpg'
     },
     {
       id: 8,
       title: "Audi R8 貼膜案例",
-      image: "/image/work_r8_2.jpg"
+      image: process.env.PUBLIC_URL + '/image/work_r8_2.jpg'
     },
     {
       id: 9,
       title: "Porsche 718 鍍膜案例",
-      image: "/image/work_718.JPG"
+      image: process.env.PUBLIC_URL + '/image/work_718.JPG'
     }
   ];
 

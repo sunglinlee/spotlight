@@ -9,7 +9,7 @@ const News = () => {
     {
       id: 0,
       title: "SpotLight 鍍膜服務介紹",
-      image: "/image/news_1.jpg",
+      image: process.env.PUBLIC_URL + '/image/news_1.jpg',
       content: (
         <div className="news-text">
           <h2>SpotLight 鍍膜服務介紹</h2>
@@ -27,7 +27,7 @@ const News = () => {
     {
       id: 1,
       title: "注意！新車停戶外曬太陽會產生「太陽紋」",
-      image: "/image/news_2.jpg",
+      image: process.env.PUBLIC_URL + '/image/news_2.jpg',
       content: (
         <div className="news-text">
           <h2>注意！新車停戶外曬太陽會產生「太陽紋」</h2>
@@ -45,7 +45,7 @@ const News = () => {
     {
       id: 2,
       title: "SpotLight 鍍膜推薦報價",
-      image: "/image/news_menu.png",
+      image: process.env.PUBLIC_URL + '/image/news_menu.png',
       content: (
         <div className="news-text">
           <h2>SpotLight 鍍膜推薦報價</h2>

@@ -38,7 +38,7 @@ const Navbar = () => {
     <nav className={`navbar ${visible ? 'visible' : 'hidden'}`}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <img src="/image/logo1.png" alt="SpotLight Logo" />
+          <img src={process.env.PUBLIC_URL + '/image/logo1.png'} alt="SpotLight Logo" />
         </Link>
         
         <div className="menu-icon" onClick={toggleMenu}>

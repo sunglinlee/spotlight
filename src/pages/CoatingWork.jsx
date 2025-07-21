@@ -17,37 +17,37 @@ const CoatingWork = () => {
     {
       id: 1,
       title: "前置溝通與評估",
-      image: "/image/1.png",
+      image: process.env.PUBLIC_URL + '/image/1.png',
       description: "與客戶接洽確認方案，現場看實車確認施工方式"
     },
     {
       id: 2,
       title: "鍍膜前洗車作業",
-      image: "/image/6.png",
+      image: process.env.PUBLIC_URL + '/image/6.png',
       description: "專業深度清潔，去除車身沙塵、柏油、鐵粉"
     },
     {
       id: 3,
       title: "拋光作業",
-      image: "/image/home_1.jpg",
+      image: process.env.PUBLIC_URL + '/image/home_1.jpg',
       description: "全車細紋修護作業，門碗細紋修復作業"
     },
     {
       id: 4,
       title: "鍍膜作業",
-      image: "/image/home_2.jpg",
+      image: process.env.PUBLIC_URL + '/image/home_2.jpg',
       description: "車身鍍膜、鋁圈鍍膜、玻璃鍍膜作業"
     },
     {
       id: 5,
       title: "內裝外觀清潔保養",
-      image: "/image/home_3.jpg",
+      image: process.env.PUBLIC_URL + '/image/home_3.jpg',
       description: "室內清潔、車身細節加強、鍍鉻飾條清潔"
     },
     {
       id: 6,
       title: "檢查交車工作",
-      image: "/image/home.png",
+      image: process.env.PUBLIC_URL + '/image/home.png',
       description: "技師自檢、主管審核、拍攝完工照、說明保養事項"
     }
   ];
@@ -55,29 +55,29 @@ const CoatingWork = () => {
   // 各步驟專用圖片
   const stepImages = {
     step1: [
-      { id: 1, title: "客戶接洽", image: "/image/1.png", description: "與客戶接洽確認方案進行預約" },
-      { id: 2, title: "現場評估", image: "/image/6.png", description: "到現場看實車確認施工方式" },
-      { id: 3, title: "漆面檢查", image: "/image/home_1.jpg", description: "評估漆面狀況是否有受損" }
+      { id: 1, title: "客戶接洽", image: process.env.PUBLIC_URL + '/image/1.png', description: "與客戶接洽確認方案進行預約" },
+      { id: 2, title: "現場評估", image: process.env.PUBLIC_URL + '/image/6.png', description: "到現場看實車確認施工方式" },
+      { id: 3, title: "漆面檢查", image: process.env.PUBLIC_URL + '/image/home_1.jpg', description: "評估漆面狀況是否有受損" }
     ],
     step2: [
-      { id: 1, title: "車身冷卻", image: "/image/home_2.jpg", description: "等待車身冷卻施工" },
-      { id: 2, title: "深度清潔", image: "/image/home_3.jpg", description: "高壓水槍沖洗去除車身沙塵" },
-      { id: 3, title: "專業清洗", image: "/image/home.png", description: "汽車專用泡沫清洗車身" }
+      { id: 1, title: "車身冷卻", image: process.env.PUBLIC_URL + '/image/home_2.jpg', description: "等待車身冷卻施工" },
+      { id: 2, title: "深度清潔", image: process.env.PUBLIC_URL + '/image/home_3.jpg', description: "高壓水槍沖洗去除車身沙塵" },
+      { id: 3, title: "專業清洗", image: process.env.PUBLIC_URL + '/image/home.png', description: "汽車專用泡沫清洗車身" }
     ],
     step3: [
-      { id: 1, title: "遮蔽保護", image: "/image/1.png", description: "黏貼遮蔽膠帶，前置作業" },
-      { id: 2, title: "車標保護", image: "/image/6.png", description: "車標包覆保護" },
-      { id: 3, title: "細紋修護", image: "/image/home_1.jpg", description: "全車細紋修護作業" }
+      { id: 1, title: "遮蔽保護", image: process.env.PUBLIC_URL + '/image/1.png', description: "黏貼遮蔽膠帶，前置作業" },
+      { id: 2, title: "車標保護", image: process.env.PUBLIC_URL + '/image/6.png', description: "車標包覆保護" },
+      { id: 3, title: "細紋修護", image: process.env.PUBLIC_URL + '/image/home_1.jpg', description: "全車細紋修護作業" }
     ],
     step4: [
-      { id: 1, title: "除蠟清洗", image: "/image/home_2.jpg", description: "除蠟水清洗車身" },
-      { id: 2, title: "IPA脫酯", image: "/image/home_3.jpg", description: "全車IPA脫酯（兩次）" },
-      { id: 3, title: "鍍膜施工", image: "/image/home.png", description: "車身鍍膜作業" }
+      { id: 1, title: "除蠟清洗", image: process.env.PUBLIC_URL + '/image/home_2.jpg', description: "除蠟水清洗車身" },
+      { id: 2, title: "IPA脫酯", image: process.env.PUBLIC_URL + '/image/home_3.jpg', description: "全車IPA脫酯（兩次）" },
+      { id: 3, title: "鍍膜施工", image: process.env.PUBLIC_URL + '/image/home.png', description: "車身鍍膜作業" }
     ],
     step5: [
-      { id: 1, title: "室內清潔", image: "/image/1.png", description: "室內吸塵，擦拭整理" },
-      { id: 2, title: "外觀保養", image: "/image/6.png", description: "車身外部細節加強擦拭" },
-      { id: 3, title: "鍍鉻清潔", image: "/image/home_1.jpg", description: "鍍鉻飾條清潔" }
+      { id: 1, title: "室內清潔", image: process.env.PUBLIC_URL + '/image/1.png', description: "室內吸塵，擦拭整理" },
+      { id: 2, title: "外觀保養", image: process.env.PUBLIC_URL + '/image/6.png', description: "車身外部細節加強擦拭" },
+      { id: 3, title: "鍍鉻清潔", image: process.env.PUBLIC_URL + '/image/home_1.jpg', description: "鍍鉻飾條清潔" }
     ]
   };
 

@@ -18,7 +18,7 @@ const Home = () => {
       </Helmet>
 
       <div className="home">
-        <section className="hero" style={{ backgroundImage: 'url(/image/home.png)' }}>
+        <section className="hero" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/home.png)` }}>
           <div className="hero-content">
             <h1>SPOTLIGHT</h1>
           </div>
@@ -26,7 +26,7 @@ const Home = () => {
 
         <section className="service-section">
           <div className="section-content">
-            <img src="/image/home_1.jpg" alt="服務展示" className="section-image" />
+            <img src={process.env.PUBLIC_URL + '/image/home_1.jpg'} alt="服務展示" className="section-image" />
             <div className="text-content">
               <h2>精緻平價「 鍍膜x貼膜 」專門店！</h2>
               <Link to="/coating-work" className="cta-button">施工流程</Link>
@@ -36,7 +36,7 @@ const Home = () => {
 
         <section className="about-section">
           <div className="section-content">
-            <img src="/image/home_2.jpg" alt="關於我們" className="section-image" />
+            <img src={process.env.PUBLIC_URL + '/image/home_2.jpg'} alt="關於我們" className="section-image" />
             <div className="text-content">
               <h2>漆面調整糖果光澤的秘密</h2>
               <Link to="/about" className="cta-button">關於我們</Link>
@@ -46,7 +46,7 @@ const Home = () => {
 
         <section className="stores-section">
           <div className="section-content">
-            <img src="/image/home_3.jpg" alt="門市展示" className="section-image" />
+            <img src={process.env.PUBLIC_URL + '/image/home_3.jpg'} alt="門市展示" className="section-image" />
             <div className="text-content">
               <h2>全台「 2」間直營店為你服務！</h2>
               <Link to="/location" className="cta-button">據點查詢</Link>
